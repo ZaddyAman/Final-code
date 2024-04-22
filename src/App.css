@@ -1,0 +1,69 @@
+/* Header Styles */
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+
+
+
+/* Nav.css */
+.nav {
+  background-color: transparent; /* Make the background transparent */
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed; /* Fixed position to keep it at the top */
+  width: 100%; /* Full width */
+  z-index: 999; /* Ensure it appears above other content */
+  backdrop-filter: blur(10px);
+  top: 0; /* Ensure it's at the top of the page */
+}
+
+/* Rest of your existing styles */
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #040D12;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-shadow: #fff;
+  transition: color 0.5s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #F0F0F0; /* Change color on hover */
+  font-weight: bold; /* Add emphasis on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+}
+
+
+
+
+

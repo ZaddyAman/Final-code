@@ -1,0 +1,165 @@
+/* Input.css */
+.input-container {
+  background-image: url('../img/DreamShaper_v7_Generate_a_highresolution_image_which_should_pr_0.jpg'); /* Replace with your desired background image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* Add any other background styles you want */
+}
+
+  
+  
+  .input {
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .input h2 {
+    margin-bottom: 40px;
+  }
+  
+  .input-table {
+    margin: 0 auto; /* Center the table horizontally */
+    width: 80%; /* Adjust the width as needed */
+    border-collapse: collapse;
+   
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  .input-table th{
+    background-color: #04AA6D;
+    color: white;
+    width: 2rem;
+    height: 3rem;
+  
+  }
+  .input-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color:white;
+    transition: background-color 0.3s; /* Add animation to background color */
+  
+  }
+  
+  
+  
+  .input-table tr:hover {
+    background-color: #ccc; /* Change background color on hover */
+  }
+  
+  
+  
+  button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add animation to background color */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .buttongrp button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .buttongrp button:hover {
+    background-color: #0056b3;
+  }
+  /* Styling for the button group container */
+  .buttongrp {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center; /* Center the buttons horizontally */
+  }
+  
+  /* Styling for the buttons */
+  .buttongrp button {
+    justify-content:space-between;
+    display: flex;
+   
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .buttongrp button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+/* Styles for recommendations section */
+.recommendations {
+  margin-top: 40px; /* Add spacing after the input table */
+  padding: 20px;
+  
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+
+}
+
+.recommendations h2 {
+  margin-bottom: 200px;
+}
+
+.attribute-section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px; /* Add bottom padding for content */
+}
+
+.attribute-section h3 {
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  padding: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.attribute-section ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.attribute-section li {
+  margin-bottom: 5px;
+}
+
+.attribute-section li b {
+  font-weight: bold;
+  margin-right: 5px;
+}
